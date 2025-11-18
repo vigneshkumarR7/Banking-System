@@ -1,0 +1,9 @@
+CREATE DATABASE banking_db;
+
+USE banking_db;
+
+CREATE TABLE accounts (
+    account_no INT PRIMARY KEY,
+    name VARCHAR(200),
+    balance DOUBLE
+);
